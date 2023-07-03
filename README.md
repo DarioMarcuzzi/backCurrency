@@ -56,4 +56,4 @@ Ejecute el siguiente comando para iniciar el servidor: npm start.
     
   </strong></li>
 </ol>
-El servidor backCurrency ahora está en funcionamiento y listo para recibir solicitudes de la microaplicación de cotizaciones de monedas.
+El servidor backCurrency ahora está en funcionamiento y listo para recibir solicitudes de la microaplicación de mf-currency.
