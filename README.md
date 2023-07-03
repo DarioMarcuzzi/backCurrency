@@ -35,25 +35,22 @@ Configuración de la base de datos PostgreSQL, incluyendo la creación de una ba
 ## Instalación
 Siga estos pasos para instalar y ejecutar el servidor backCurrency:
 <ol>
-  <li><strong>
+  <li>
 Clone este repositorio en su computadora local.
-  </strong></li>
-  <li><strong>
+  </li>
+  <li>
 Navegue hasta la carpeta del repositorio: cd backCurrency.
-    
+</li>
+  <li>
+Ejecute el siguiente comando para instalar las dependencias: <strong>npm install.
   </strong></li>
-  <li><strong>
-Ejecute el siguiente comando para instalar las dependencias: npm install.
-    
-  </strong></li>
-  <li><strong>
-Configure la conexión a la base de datos en el archivo .env. Asegúrese de proporcionar los valores correctos para  DB_HOST, DB_USER , DB_PASSWORD.
-apikey=(https://rapidapi.com/exchangerateapi/api/exchangerate-api) 
-    
-  </strong></li>
-  <li><strong>
-Ejecute el siguiente comando para iniciar el servidor: npm start.
-    
+  <li>
+Configure la conexión a la base de datos en el archivo .env. Asegúrese de proporcionar los valores correctos para <strong> DB_HOST, DB_USER , DB_PASSWORD.
+apikey</strong>=(https://rapidapi.com/exchangerateapi/api/exchangerate-api) 
+  </li>
+  <li>
+Ejecute el siguiente comando para iniciar el servidor:<strong> npm start.
   </strong></li>
 </ol>
+
 El servidor backCurrency ahora está en funcionamiento y listo para recibir solicitudes de la microaplicación de mf-currency.
